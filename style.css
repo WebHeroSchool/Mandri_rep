@@ -1,3 +1,65 @@
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media screen and (min-width:320px) 
+{
+	.wrap {
+		font-size: 10px;
+	}
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media screen and (min-width:481px) 
+{
+	.wrap {
+		font-size: 11px;
+	}
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media screen and (min-width:641px) 
+{
+	.wrap {
+		font-size: 12px;
+	}	
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (min-width:961px) 
+{
+	.wrap {
+		font-size: 13px;
+	}
+}
+/* big landscape tablets, laptops, and desktops */
+@media screen and (min-width:1025px) 
+{
+	.wrap {
+		font-size: 14px;
+	}
+}
+/* hi-res laptops and desktops */
+@media screen and (min-width:1281px) 
+{
+	.wrap {
+		font-size: 15px;
+	}
+}
+
+/*.menu {
+    text-align: right;
+}
+*/
+.menu__links-item {
+    display: inline-block;
+    color: #333333;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu__links-item:hover {
+    text-decoration: underline;
+}
+
 .wrap
 {
 	font-family: 'Oswald', sans-serif;
